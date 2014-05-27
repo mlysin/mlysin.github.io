@@ -1,0 +1,228 @@
+
+* {
+    -moz-box-sizing: border-box;
+}
+.pricing-table {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 6px solid #1ABC9C;
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-align: center;
+    transition: all 0.2s ease-in-out 0s;
+}
+.pricing-table:hover {
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.5);
+}
+.rounded {
+    border-radius: 7px 7px 7px 7px;
+}
+.pricing-table.green {
+    border: 6px solid #2ECC71;
+    font-weight: 400;
+    text-align: center;
+}
+.pricing-table.red {
+    border: 6px solid #E74C3C;
+    font-weight: 400;
+    text-align: center;
+}
+.pricing-table.orange {
+    border: 6px solid #F39C12;
+    font-weight: 400;
+    text-align: center;
+}
+.pricing-table.dark-blue {
+    border: 6px solid #34495E;
+    font-weight: 400;
+    text-align: center;
+}
+.pricing-table.blue {
+    border: 6px solid #3498DB;
+    font-weight: 400;
+    text-align: center;
+}
+.pricing-table-sign-up {
+    background: none repeat scroll 0 0 #ECF0F1;
+    border-top: 1px solid #BDC3C7;
+    padding: 10px 20px;
+    text-align: center;
+}
+.pricing-table-features p {
+    padding: 5px 20px;
+    text-align: center;
+}
+.pricing-table-features p:nth-child(2n) {
+    background: none repeat scroll 0 0 #ECF0F1;
+}
+.pricing-table-features, .pricing-table-space {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+.pricing-table p {
+    background: none repeat scroll 0 0 #FFFFFF;
+    font-size: 110%;
+    font-weight: 400;
+    margin-top: 5px;
+    padding: 5px;
+}
+.pricing-table p strong {
+    font-weight: 600;
+}
+.pricing-table .pricing-table-header {
+    background: none repeat scroll 0 0 #1ABC9C;
+    color: #FFFFFF;
+    padding: 0;
+}
+.pricing-table-header .heading {
+    display: inline-block;
+    padding: 15px 0;
+    text-transform: uppercase;
+    width: 100%;
+}
+.pricing-table.orange .heading {
+    background: none repeat scroll 0 0 #F39C12;
+}
+.pricing-table.green .heading {
+    background: none repeat scroll 0 0 #2ECC71;
+}
+.pricing-table.red .heading {
+    background: none repeat scroll 0 0 #E74C3C;
+}
+.pricing-table.dark-blue .heading {
+    background: none repeat scroll 0 0 #34495E;
+}
+.pricing-table.blue .heading {
+    background: none repeat scroll 0 0 #3498DB;
+}
+.pricing-table .pricing-table-header .price-value {
+    background: none repeat scroll 0 0 #16A085;
+}
+.pricing-table.red .pricing-table-header .price-value {
+    background: none repeat scroll 0 0 #C0392B;
+}
+.pricing-table.orange .pricing-table-header .price-value {
+    background: none repeat scroll 0 0 #D35400;
+}
+.pricing-table.green .pricing-table-header .price-value {
+    background: none repeat scroll 0 0 #27AE60;
+}
+.pricing-table.dark-blue .pricing-table-header .price-value {
+    background: none repeat scroll 0 0 #2C3E50;
+}
+.pricing-table.blue .pricing-table-header .price-value {
+    background: none repeat scroll 0 0 #2980B9;
+}
+.pricing-table-header .price-value {
+    background: none repeat scroll 0 0 #1ABC9C;
+    display: inline-block;
+    padding: 20px 0;
+    width: 100%;
+}
+.pricing-table-header .price-value span {
+    font-size: 300%;
+}
+.pricing-table-header .price-value span.mo {
+    font-size: 200%;
+}
+body {
+    color: #34495E;
+}
+h1 {
+    font-size: 32px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 4px;
+    margin-top: 2px;
+}
+h4 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 4px;
+}
+h5 {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+h6 {
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.btn {
+    background: none repeat scroll 0 0 #34495E;
+    border: medium none;
+    box-shadow: none;
+    color: white;
+    font-size: 16.5px;
+    text-decoration: none;
+    text-shadow: none;
+    transition: all 0.25s ease 0s;
+}
+.btn:hover, .btn:focus {
+    background-color: #4E6D8D;
+    color: white;
+    transition: all 0.25s ease 0s;
+}
+.btn:active, .btn.active {
+    background-color: #2C3E50;
+    box-shadow: none;
+    color: rgba(255, 255, 255, 0.75);
+}
+.btn.btn-large {
+    padding-bottom: 12px;
+    padding-top: 13px;
+}
+.btn.btn-primary {
+    background-color: #1ABC9C;
+}
+.btn.btn-primary:hover, .btn.btn-primary:focus {
+    background-color: #2FE2BF;
+}
+.btn.btn-primary:active, .btn.btn-primary.active {
+    background-color: #16A085;
+}
+.btn.btn-info {
+    background-color: #3498DB;
+}
+.btn.btn-info:hover, .btn.btn-info:focus {
+    background-color: #5DADE2;
+}
+.btn.btn-info:active, .btn.btn-info.active {
+    background-color: #2383C4;
+}
+.btn.btn-danger {
+    background-color: #E74C3C;
+}
+.btn.btn-danger:hover, .btn.btn-danger:focus {
+    background-color: #EC7063;
+}
+.btn.btn-danger:active, .btn.btn-danger.active {
+    background-color: #DC2D1B;
+}
+.btn.btn-success {
+    background-color: #2ECC71;
+}
+.btn.btn-success:hover, .btn.btn-success:focus {
+    background-color: #55D98D;
+}
+.btn.btn-success:active, .btn.btn-success.active {
+    background-color: #27AD60;
+}
+.btn.btn-warning {
+    background-color: #F1C40F;
+}
+.btn.btn-warning:hover, .btn.btn-warning:focus {
+    background-color: #F4D03F;
+}
+.btn.btn-warning:active, .btn.btn-warning.active {
+    background-color: #CEA70C;
+}
